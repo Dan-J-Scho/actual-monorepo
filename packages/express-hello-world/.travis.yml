@@ -1,0 +1,13 @@
+sudo_required: true
+language: node_js
+node_js: node
+
+#deployment:
+ # dockerhub:
+  #  branch: master
+  #  commands:
+  #   - $DOCKER_FILE_TRIGGER
+
+test:
+  override:    
+    - mocha
