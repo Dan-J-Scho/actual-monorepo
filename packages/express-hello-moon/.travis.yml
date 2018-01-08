@@ -2,8 +2,6 @@ sudo_required: true
 language: node_js
 node_js: node
 
-script: app.js
-
 test:
   override:    
     - mocha
