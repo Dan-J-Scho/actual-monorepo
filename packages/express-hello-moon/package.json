@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mocha": "^4.1.0"
   },
   "devDependencies": {
     "request": "^2.83.0"
