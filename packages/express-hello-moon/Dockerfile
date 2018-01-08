@@ -10,7 +10,7 @@ RUN adduser -D $USERNAME && \
 USER $USERNAME
 WORKDIR /code
 
-# Copy app to /src
+# Copy app to /code
 COPY . /code
 
 USER root

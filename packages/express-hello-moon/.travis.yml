@@ -1,6 +1,7 @@
 sudo_required: true
 language: node_js
 node_js: node
+services: docker
 
 test:
   override:    
