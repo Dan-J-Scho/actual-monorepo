@@ -1,0 +1,23 @@
+0 silly input [ '/Users/dan/Documents/project/express-hello-world/' ]
+1 silly flags { _: [ 'import' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   pathToRepo: '/Users/dan/Documents/project/express-hello-world/' }
+2 verbose rootPath /Users/dan/Documents/project/actual-monorepo
+3 info version 2.6.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/dan/Documents/project/actual-monorepo/VERSION
+7 silly initialize attempt
+8 silly statSync /Users/dan/Documents/project/express-hello-world
+9 silly existsSync /Users/dan/Documents/project/actual-monorepo/packages/express-hello-world
+10 silly getCurrentSHA
+11 error initialize caught error
+12 error Error: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+12 error Use '--' to separate paths from revisions, like this:
+12 error 'git <command> [<revision>...] -- [<file>...]'
+12 error
+12 error     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:303:26)
+12 error     at Function.execSync (/usr/local/lib/node_modules/lerna/lib/ChildProcessUtilities.js:59:30)
+12 error     at Function.getCurrentSHA (/usr/local/lib/node_modules/lerna/lib/GitUtilities.js:204:49)
+12 error     at ImportCommand.initialize (/usr/local/lib/node_modules/lerna/lib/commands/ImportCommand.js:145:51)
