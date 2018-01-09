@@ -1,3 +1,5 @@
+const app = require ('../app.js');
+
 var expect = require('chai').expect;
 var request = require('request');
 
