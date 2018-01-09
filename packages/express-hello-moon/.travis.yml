@@ -6,7 +6,7 @@ node_js: node
 services: docker
 
 before_install:
-  - docker build -t bradmorton1/express-hello-world
+  - docker build -t bradmorton1/express-hello-world .
 
 script:
   - docker images bradmorton1/express-hello-world

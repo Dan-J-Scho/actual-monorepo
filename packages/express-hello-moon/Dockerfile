@@ -1,6 +1,6 @@
 FROM node:8.9.1-alpine
 
-RUN rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+ENV USERNAME nodeuser
 
 # changes ownership to user
 WORKDIR /code
