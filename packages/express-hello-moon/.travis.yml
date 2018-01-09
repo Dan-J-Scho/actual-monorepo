@@ -1,11 +1,12 @@
 sudo_required: true
+
 language: node_js
 node_js: node
+
 services: docker
+
+before_install:
+  - $DOCKER_HUB_TRIGGER
 
 script:
   - npm test
-
-after_success:
-  deploy:
-    skip_cleanup: true
